@@ -16,7 +16,7 @@ Praticar JavaScript puro: manipulação do DOM, eventos e localStorage.
 - Atalhos de teclado, exportar/importar em JSON e tema escuro
 
 ## Roadmap
-- [ ] Criar o esqueleto HTML
+- [x] Criar o esqueleto HTML
 - [ ] Montar o layout das colunas com CSS
 - [ ] Guardar as tarefas em um array e desenhá-las na tela
 - [ ] Adicionar tarefas pelo formulário
