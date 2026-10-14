@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head> 
+    <!-- configurações ocultas e as instruções de bastidores -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body> <!-- corpo da página, onde tudo fica. -->
+    
+    
+
+<header>
+    <h1>TaskFlow</h1>
+</header>
+
+<main>
+    <form id="tarefa-form">
+  <label for="tarefa-input">Nova tarefa</label>
+  <input id="tarefa-input" type="text" required>
+  <button type="submit">Adicionar tarefa</button>
+</form>
+<div id="quadro">
+<section data-status="todo">
+  <h2>A fazer</h2>
+  <ul></ul>
+</section>
+<section data-status="doing">
+  <h2>Fazendo</h2>
+  <ul></ul>
+</section>
+  <section data-status="done">
+  <h2>Feito</h2>
+  <ul></ul>
+</section>
+</div>
+</main>
+
+<footer> <a href="https://github.com/joaopedropenna/TaskFlow" target="_blank" rel="noopener noreferrer">Código no GitHub</a> </footer>
+
+ <script src="script.js" type="module"></script>
+</body>
+</html>
