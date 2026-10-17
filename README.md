@@ -17,7 +17,7 @@ Praticar JavaScript puro: manipulação do DOM, eventos e localStorage.
 
 ## Roadmap
 - [x] Criar o esqueleto HTML
-- [ ] Montar o layout das colunas com CSS
+- [x] Montar o layout das colunas com CSS
 - [ ] Guardar as tarefas em um array e desenhá-las na tela
 - [ ] Adicionar tarefas pelo formulário
 - [ ] Salvar as tarefas no localStorage
